@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Budget</title>
+    <meta name="author" content="Marcin Czepiel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+</head>
+<body>
+    <div class="budget">
+        <div class="header">
+            <h1>Przychody</h1>
+            <input type="text" class="budgetInput" placeholder="Nazwa dochodu ...">
+            <button class="addBtn">Dodaj</button>
+        </div>
+        <div class="budgetList">
+            <h3>Lista przychodów:</h3>
+            <p class="alertInfo">Brak przychodów.</p>
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <div class="popup">
+        <h3>Edytuj zadanie:</h3>
+        <div class="popupBody">
+            <p class="popupInfo"></p>
+            <input type="text" class="popupInput" placeholder="Wprowadź nowę treść zadania...">
+            <button class="popupBtn accept">Zatwierdź</button>
+            <button class="popupBtn cancel">Anuluj</button>
+        </div>
+    </div>
+    <!-- <footer>2021 Marcin Czepiel</footer> -->
+    <script src="./main.js"></script>
+</body>
+</html>
