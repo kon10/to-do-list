@@ -39,21 +39,31 @@ h1 {
 }
 .header {
     border-radius: 5px 5px 0 0;
-    padding: 40px;
+    padding: 50px;
     background-image: linear-gradient(340deg, #0426e9 0%, #0ef1e6 100%);
 }
 
 .budgetInput {
-    width: 60%;
-    padding: 10px 20px;
-    margin-right: 20px;
+    width: 40%;
+    padding: 10px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    color: var(--light-dark);
+    background-color: var(--light);
+}
+
+.budgetInput2 {
+    width: 25%;
+    padding: 10px 10px;
+    margin-right: 30px;
     border: none;
     border-radius: 5px;
     color: var(--light-dark);
     background-color: var(--light);
 }
 .addBtn {
-    padding: 10px 22px;
+    padding: 10px 16px;
     border: none;
     border-radius: 5px;
     color: var(--deep-dark);
@@ -119,7 +129,7 @@ h1 {
     align-items: center;
     flex-direction: column;
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
     width: 800px;
