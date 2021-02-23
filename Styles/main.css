@@ -138,6 +138,23 @@ h1 {
     border-radius: 5px;
 }
 
+.popup h3{
+    padding: 20px;
+}
+
+.popupInfo {
+    color: var(--light);
+    margin-bottom: 20;
+}
+.poupInput {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: var(--light-dark);
+    background-color: var(--light);
+}
+
 footer {
     font-size: 50px;
     align-items: center;
