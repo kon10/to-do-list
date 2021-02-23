@@ -27,6 +27,7 @@ body {
 
 h1 {
     color: var(--light);
+    font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
@@ -40,7 +41,9 @@ h1 {
 .header {
     border-radius: 5px 5px 0 0;
     padding: 50px;
-    background-image: linear-gradient(340deg, #0426e9 0%, #0ef1e6 100%);
+    /* background-image: linear-gradient(340deg, #0426e9 0%, #0ef1e6 100%); */
+    width: auto;
+    background-image: url("https://ocdn.eu/pulscms-transforms/1/fDUk9kuTURBXy9jYWNmOTk0ZC1lZjY0LTQ5ZGEtOTkxOS1lMTU1NjhmMmYyOGYuanBlZ5GVAs0DBwDDw4GhMAE");
 }
 
 .budgetInput {
@@ -123,6 +126,13 @@ h1 {
     color: rgb(255, 60, 60);
 }
 
+.completed {
+    font-size: 12px;
+    color: var(--light-dark);
+    text-decoration: line-through;
+    font-style: italic;
+}
+
 .popup {
     display: none;
     justify-content: center;
@@ -146,13 +156,32 @@ h1 {
     color: var(--light);
     margin-bottom: 20;
 }
-.poupInput {
+
+.popupInput {
     width: 100%;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     color: var(--light-dark);
     background-color: var(--light);
+}
+
+.popupBtn {
+    width: 30%;
+    display: inline-block;
+    padding: 10px 22px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    color: var(--deep-dark);
+    background-color: var(--light);
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+.popupBtn:hover {
+    color: #fff;
+    background-color: var(--light-blue);
 }
 
 footer {
